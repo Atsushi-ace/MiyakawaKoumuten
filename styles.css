@@ -43,7 +43,6 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-left: -3cm;
     flex-shrink: 0;
     min-width: 0;
     overflow: hidden;
@@ -55,6 +54,8 @@ body {
     object-fit: contain;
     border-radius: 5px;
     transition: opacity 0.3s ease;
+    opacity: 1;
+    display: block;
 }
 
 .logo-image[style*="display: none"] + h1 {
@@ -73,7 +74,6 @@ body {
     display: flex;
     list-style: none;
     gap: 2rem;
-    margin-right: -3cm;
 }
 
 .nav-list a {
